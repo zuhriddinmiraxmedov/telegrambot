@@ -15,7 +15,7 @@ CHANNELS = [
     -1003999577501
     -1003912142197
     -5231904529
-    -5231904529
+    -1003981536236
     # Qolgan kanallarni ham shu tartibda qo'shing (jami 5 ta)
 ]
 
