@@ -7,16 +7,16 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart, Command
 
 # --- SOZLAMALAR ---
-BOT_TOKEN = os.getenv("BOT_TOKEN", "TOKENNI_BU_YERGA_QOYING")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "6325088705"))
-PORT = int(os.getenv("PORT", "8080"))
+BOT_TOKEN = "8664115718:AAHzRLf-nZnuPpCHACmWHFnGcLLBiYS6VXo"
+ADMIN_ID = 6325088705
 
 CHANNELS = [
-    -1003731603684,
-    -1003999577501,
-    -1003912142197,
-    -5231904529,
-    -5132517858,
+    -1003731603684
+    -1003999577501
+    -1003912142197
+    -5231904529
+    -5231904529
+    # Qolgan kanallarni ham shu tartibda qo'shing (jami 5 ta)
 ]
 
 DB_FILE = "sent_messages.json"
