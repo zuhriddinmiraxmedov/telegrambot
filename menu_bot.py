@@ -9,7 +9,7 @@ from aiogram.filters import CommandStart, Command
 # --- SOZLAMALAR ---
 BOT_TOKEN = "8664115718:AAHzRLf-nZnuPpCHACmWHFnGcLLBiYS6VXo"
 ADMIN_ID = 6325088705
-
+PORT = int(os.environ.get("PORT", 8080))
 CHANNELS = [
     -1003731603684 
     -1003999577501 
